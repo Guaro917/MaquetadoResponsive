@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>MaquetacionCSS 02</title>
+    <link rel="icon" href="img/supertux.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- INICIO DE CABECERA -->
+    <header id="header">
+        <div class="wrap">
+            <div id="logo">
+                <span class="gear">S</span>
+                <h3>BLOG</h3>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="#">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">FORMACIÓN</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- FIN CABECERA -->
+    <section class="wrap">
+        <section id="info">
+            <!-- INICIO BANNER -->
+            <div id="banner">
+                <h1>CURSOS DE DESARROLLO WEB</h1>
+            </div>
+            <!--FIN BANNER  -->
+
+            <!-- INICIO TARJETAS -->
+            <div id="cards">
+                <div class="card">
+                    <p class="icono">H</p>
+                    <h2 class="cardTitle">Desarrollo Web</h2>
+                    <p class="cardP">Aprende los principales lenguajes para desarrollar webs.</p>
+                </div>
+                <div class="card">
+                    <p class="icono">_</p>
+                    <h2 class="cardTitle">Sistemas Operativos</h2>
+                    <p class="cardP">Aprende a administrar sistemas Linux y Windows.</p>
+                </div>
+                <div class="card">
+                    <p class="icono">S</p>
+                    <h2 class="cardTitle">Hardware</h2>
+                    <p class="cardP">Conoce los entresijos del hardware.</p>
+                </div>
+                <div class="card">
+                    <p class="icono">u</p>
+                    <h2 class="cardTitle">Redes e Internet</h2>
+                    <p class="cardP">Aprende a configurar y administrar redes informaticas y servidores.</p>
+                </div>
+                <div class="card">
+                    <p class="icono">a</p>
+                    <h2 class="cardTitle">Base de datos</h2>
+                    <p class="cardP">Aprende a montar y administrar bases de datos.</p>
+                </div>
+            </div>
+            <!-- FIN TARJETAS -->
+        </section>
+
+        <!-- INICIO BARRA LATERAL -->
+        <div class="clearfix"></div>
+        <aside id="lateral">
+            <h3>BUSCAR</h3>
+            <div id="search">
+                <form>
+                    <input type="text">
+                    <input type="button" value="L" class="icono">
+                </form>
+            </div>
+            <h3>LOGIN</h3>
+            <div id="login" class="aside-box">
+                <form action="">
+                    <label id="user" class="icono">U</label>
+                    <input type="email">
+
+                    <label id="password" class="icono">w</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Limpiar">
+                    <!-- este ultimo div es si bien parece innecesario, me sirve a la hora del responsive
+                    <div class="clearfix"></div> -->
+                    <a href="#">Registrate aqui</a>
+                    <a href="#">¿Has olvidado tu contraseña?</a>
+                </form>    
+            </div>
+            <h3>REDES SOCIALES</h3>
+            <div id="social" class="aside-box">
+                <div class="twitter">
+                    <a href="#" class="icono">t</a>
+                    <p class="overlay">Twitter</p>
+                </div>
+                <div class="facebook">
+                    <a href="#" class="icono">f</a>
+                    <p class="overlay">Facebook</p>
+                </div>
+                <div class="youtube">
+                    <a href="#" class="icono">y</a>
+                    <p class="overlay">YouTube</p>
+                </div>
+
+            </div>
+            <h3>COLABORADORES</h3>
+            <div id="sponsors" class="aside-box">
+
+            </div>
+        </aside>
+        <!-- FIN BARRA LATERAL -->
+
+        <!-- INICIO ARTICULOS -->
+        <section id="articles">
+            <h2>ULTIMOS ARTICULOS</h2>
+            <article>
+                <div class="data">
+                    <span>Fecha:03 Mar</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del Articulo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu tristique nulla, id euismod est. Maecenas augue ligula, dictum sed pharetra aliquet, vestibulum semper ipsum. Pellentesque a consectetur purus. Mauris quis porttitor eros. Fusce ac gravida metus, vel pretium lorem. Cras gravida consequat tortor eget commodo. Sed mauris tellus, viverra in convallis nec, elementum et ligula.
+                </p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha:03 Mar</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del Articulo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu tristique nulla, id euismod est. Maecenas augue ligula, dictum sed pharetra aliquet, vestibulum semper ipsum. Pellentesque a consectetur purus. Mauris quis porttitor eros. Fusce ac gravida metus, vel pretium lorem. Cras gravida consequat tortor eget commodo. Sed mauris tellus, viverra in convallis nec, elementum et ligula.
+                </p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha:03 Mar</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del Articulo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu tristique nulla, id euismod est. Maecenas augue ligula, dictum sed pharetra aliquet, vestibulum semper ipsum. Pellentesque a consectetur purus. Mauris quis porttitor eros. Fusce ac gravida metus, vel pretium lorem. Cras gravida consequat tortor eget commodo. Sed mauris tellus, viverra in convallis nec, elementum et ligula.
+                </p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha:03 Mar</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del Articulo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu tristique nulla, id euismod est. Maecenas augue ligula, dictum sed pharetra aliquet, vestibulum semper ipsum. Pellentesque a consectetur purus. Mauris quis porttitor eros. Fusce ac gravida metus, vel pretium lorem. Cras gravida consequat tortor eget commodo. Sed mauris tellus, viverra in convallis nec, elementum et ligula.
+                </p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha:03 Mar</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del Articulo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu tristique nulla, id euismod est. Maecenas augue ligula, dictum sed pharetra aliquet, vestibulum semper ipsum. Pellentesque a consectetur purus. Mauris quis porttitor eros. Fusce ac gravida metus, vel pretium lorem. Cras gravida consequat tortor eget commodo. Sed mauris tellus, viverra in convallis nec, elementum et ligula.
+                </p>
+            </article>
+            <article id="blog">
+                <a href="#">IR AL BLOG</a>
+            </article>
+
+           
+        </section>
+        <!-- FIN ARTICULOS-->
+
+    </section>
+    
+    <!-- INICIO PIE DE PAGINA -->
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div class="wrap">
+            <div id="menu-footer">
+                <h5>MENU</h5>
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Formación</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="location">
+                <h5>¿DONDE ESTAMOS?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7376224897057!2d-64.18392538489688!3d-31.421354281402408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29a956e326f%3A0xaee7391d148c72c!2sBv.%20Chacabuco%20371%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1615332290215!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div id="info">
+                <h5>DESARROLLADO CON</h5>
+                <p>
+                    <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="creado con HTML5 y CSS3">
+                </p>
+
+                <h5>OPTIMIZADO PARA</h5>
+                <p id="browsers">
+                    <img src="img/firefox-icon.png" alt="firefox logo">
+                    <img src="img/chrome.png" alt="chrome logo">
+                    <img src="img/Opera_256x256.png" alt="opera logo">
+                    <img src="img/safari.png" alt="safari logo">
+                    <img src="img/android.png" alt="android logo">
+                    <img src="img/ios.png" alt="ios logo">
+
+                </p>
+
+                <h5>AUTOR</h5>
+                <p>&copy; Fernando Guarini</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- FIN PIE DE PAGINA -->
+
+
+
+
+<!-- fix para Chrome cuando abrimos la pagina, respecto a animaciones y transiciones -->
+    <script>
+    </script>
+</body>
+
+
+
+</html>
